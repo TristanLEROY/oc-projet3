@@ -53,35 +53,6 @@ body {
     color: var(--main-bg-color)
 }
 
-/******Header ******/
-nav {
-    display: flex;
-    justify-content: space-between;   
-}
-
-.nav_bar{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 68px;
-}
-
-.activitésButton:hover,
-.hebergementsButton:hover{
-    border-top: #0065FC solid 2px ;
-        
-}
-
-.logo{
-    width: 61px;
-    height: 19px;
-}
-
-
-a{
-    text-decoration: none;
-}
-
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
