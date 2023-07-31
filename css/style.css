@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin-top: 0px;
 }
 
 .main-container {
@@ -53,7 +54,26 @@ body {
     color: var(--main-bg-color)
 }
 
+h1{
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h2 {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 /******Header ******/
+main{
+    padding-top: 30px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;   
@@ -64,28 +84,128 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     gap: 68px;
+    height: 50px;
 }
 
 .hebergementbutton:hover,
 .activitesbutton:hover{
-    border-top: #0065FC solid 2px ;
+    border-top: #0065FC solid 2px;
     color: #0065FC;    
 }
 
-.hostingbutton,
-.actbutton{
+
+.fa-location-dot{
+    display: flex;
     color: black;
+    border-radius: 15px 0px 0px 15px;
+    border: 1px solid var(--grey, #F2F2F2);
+    align-items: center;
+    height: 49px;
+    width: 50px;
+    background: var(--grey, #F2F2F2);
+    justify-content: center;
+
 }
 
 .logo{
     width: 61px;
     height: 19px;
+    padding-top: 24px;
+    
 }
 
 
 a{
     text-decoration: none;
+    color: black;
+    padding-top: 20px;
+
 }
+
+.cta{
+    display: flex;
+    background-color: var(--main-color);
+    border-radius: 0px 15px 15px 0px;
+    align-items: center;
+    height: 20px;
+    padding: 15px 16px;
+    width: auto;
+    color: white;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.search{
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    border: 1px solid var(--grey, #F2F2F2);
+    width: fit-content;
+}
+
+input{
+    outline: none;
+}
+
+input::placeholder{
+    text-align: center;
+    color: black;
+}
+
+.filter-title{
+    display: flex;
+    align-items: center;
+}
+.filter-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.filter{
+    display: flex;
+    border: var(--main-bg-color) solid 2px;
+    border-radius: 50px;
+    font-size: 17px;
+    width: fit-content;
+    height: 50px;
+    padding: 4px 19px;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter:hover{
+    display: flex;
+    background-color: var(--blue-light, #DEEBFF);
+}
+
+.info-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+.fa-info{
+    display: flex;
+    border: var(--main-bg-color) solid 2px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    justify-content: center
+}
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
