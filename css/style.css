@@ -59,17 +59,22 @@ nav {
     justify-content: space-between;   
 }
 
-.nav_bar{
+.nav-bar{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 68px;
 }
 
-.activitésButton:hover,
-.hebergementsButton:hover{
+.hebergementbutton:hover,
+.activitesbutton:hover{
     border-top: #0065FC solid 2px ;
-        
+    color: #0065FC;    
+}
+
+.hostingbutton,
+.actbutton{
+    color: black;
 }
 
 .logo{
