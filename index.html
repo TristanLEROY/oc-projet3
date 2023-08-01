@@ -20,8 +20,8 @@
             <nav>
                 <img src="images/logo/Booki.png" alt="logo" class="logo">
                 <div class="nav-bar">
-                    <a class="hebergementbutton" href="#" >Hébergements</a>
-                    <a class="activitesbutton" href="#">Activités</a>
+                    <a class="hebergement-button" href="#hebergements" >Hébergements</a>
+                    <a class="activites-button" href="#activites">Activités</a>
                 </div>
             </nav>
         </header>
@@ -29,10 +29,14 @@
             <section class="info-group">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre ville ou en pleine nature</p>
-                <div class="search-bar">                    
-                    <i class="fa-solid fa-location-dot fa-lg"></i>
-                    <input type="search" placeholder="Marseille, France" class="search">
-                    <a href="#" class="cta">Rechercher</a>
+                <div>
+                    <form action="#" method="get">                        
+                        <div class="search-bar">                      
+                            <i class="fa-solid fa-location-dot fa-lg"></i>      
+                            <input type="search" placeholder="Marseille, France" class="search">
+                            <input type="submit" value="Recherche" class="cta" />
+                        </div>
+                    </form>
                 </div>
                 <div class="filter-bar">
                     <h2 class="filter-title">Filtres</h2>
@@ -47,9 +51,9 @@
                 </div>
             </section>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section class="hebergements" id="hebergements">
                     <div class="hebergement-title">
-                        <h2 class="section-title">Hébergemens à Marseille</h2>
+                        <h2 class="section-title">Hébergements à Marseille</h2>
                     </div>
                     <div class="hebergement-cards">
                         <div class="row">
@@ -68,6 +72,7 @@
                                     <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                                     <span class="sr-only">Note de 4 sur 5</span>
                                 </div>
+                                <a href="#" class="card-link"></a>
                             </div>
                         </article>
                         <article class="card">
@@ -85,8 +90,8 @@
                                     <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                                     <span class="sr-only">Note de 4 sur 5</span>
                                 </div>
-                            </div>
-                        
+                                <a href="#" class="card-link"></a>
+                            </div>                        
                         </article>
                         <article class="card">
                             <img src="images/hebergements/reisetopia.jpg" alt="Hotel les mouettes">
@@ -103,6 +108,7 @@
                                     <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                                     <span class="sr-only">Note de 4 sur 5</span>
                                 </div>
+                                <a href="#" class="card-link"></a>
                             </div>
                         </article>
                     </div>
@@ -122,6 +128,7 @@
                                     <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                                     <span class="sr-only">Note de 4 sur 5</span>
                                 </div>
+                                <a href="#" class="card-link"></a>
                             </div>
                         </article>
                         <article class="card">
@@ -139,8 +146,8 @@
                                     <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                                     <span class="sr-only">Note de 4 sur 5</span>
                                 </div>
-                            </div>
-                        
+                                <a href="#" class="card-link"></a>
+                            </div>                        
                         </article>
                         <article class="card">
                             <img src="images/hebergements/nicate-lee.jpg" alt="Auberge Le Panier">
@@ -157,9 +164,11 @@
                                     <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                                     <span class="sr-only">Note de 4 sur 5</span>
                                 </div>
+                                <a href="#" class="card-link"></a>
                             </div>
                         </article>
                     </div>
+                    <a href="#"><h3>Afficher plus</h3></a>
                     </div>
                 </section>
                 <section class="populaires">
@@ -183,6 +192,7 @@
                                     <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                                     <span class="sr-only">Note de 4 sur 5</span>
                                 </div>
+                                <a href="#" class="card-link"></a>
                             </div>
                         </article>
                         <article class="card">
@@ -200,6 +210,7 @@
                                     <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                                     <span class="sr-only">Note de 4 sur 5</span>
                                 </div>
+                                <a href="#" class="card-link"></a>
                             </div>
                         </article>
                         <article class="card">
@@ -217,13 +228,43 @@
                                     <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                                     <span class="sr-only">Note de 4 sur 5</span>
                                 </div>
+                                <a href="#" class="card-link"></a>
                             </div>
-                        </article>
+                        </article>                        
                     </div>
                 </section>
             </div>
+            <section class="activites" id="activites">
+                <h2 class="section-title">Activités à Marseille</h2>   
+                    <div class="activites-cards row">                
+                        <article class="card">
+                            <img src="images/activites/reno-laithienne.jpg" alt="Vieux-Port">
+                                <h3>Vieux-Port</h3>
+                                <a href="#" class="card-link"></a>
+                        </article>
+                        <article class="card">
+                            <img src="images/activites/paul-hermann.jpg" alt="Fort de Pomègues">
+                                <h3>Fort de Pomègues</h3>
+                                <a href="#" class="card-link"></a>
+                        </article>
+                        <article class="card">
+                            <img src="images/activites/kilyan-sockalingum.jpg" alt="Parc natioonal des Calanques">
+                                <h3>Parc natioonal des Calanques</h3>
+                                <a href="#" class="card-link"></a>
+                        </article>
+                        <article class="card">
+                            <img src="images/activites/florian-wehde.jpg" alt="Notre-Dame-de-la-Garde">
+                                <h3>Notre-Dame-de-la-Garde</h3>
+                                <a href="#" class="card-link"></a>
+                        </article>
+                    </div>                    
+            </section>
         </main>
-        <footer></footer>
+        <footer>
+            <section>
+
+            </section>
+        </footer>
     </div>
 </body>
 
