@@ -26,6 +26,13 @@ body {
     box-sizing: border-box;
 }
 
+p{
+    font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -69,6 +76,17 @@ h2 {
     font-weight: 700;
     line-height: normal;
 }
+
+h3 {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+
 /******Header ******/
 main{
     padding-top: 30px;
@@ -193,6 +211,7 @@ input{
 .filter-title{
     display: flex;
     align-items: center;
+    margin: 0;
 }
 .filter-bar{
     display: flex;
@@ -208,10 +227,16 @@ input{
     border-radius: 50px;
     font-size: 17px;
     width: fit-content;
-    height: 50px;
+    height: 42px;
     padding: 4px 19px;
     align-items: center;
     gap: 10px;
+    color: var(--black, #000);
+    font-family: Raleway;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .filter:hover{
@@ -293,14 +318,19 @@ input{
 
 .hebergement-cards .card-title {
     margin-top: 10px;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
 
 .hebergement-cards .card-subtitle {
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
     margin: 0;
+    line-height: normal;
 }
 
 .hebergement-cards .card-rating {
+    margin-top: 8px;
     margin-bottom: 5px;
 }
 
@@ -352,18 +382,25 @@ input{
 
 /* Activites*/
 
+.activites {
+    width: auto;
+    padding: 30px;
+}
+
 .activites-cards .card-content {
-    padding-left: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
+    background-color: white;
+    border-radius: 20px;    
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));   
+    
 }
 
 .row{
     display: flex;
     flex-direction: row;
     gap: 30px;
+    justify-content: space-around; 
 }
 
 .activites-cards .card-title {
@@ -371,18 +408,62 @@ input{
     margin-bottom: 4px;
 }
 
-.activites-cards .card {
+.activites-cards .card-activites {
     display: flex;
     margin-top: 33px;
     flex-direction: column;
     width: 297px;
 }
 
+.activites-title{
+    margin-right: 19px;
+    margin-left: 19px;
+}
 .activites-cards img {
     height: 439px;    
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
+
+
+/*****Footer*****/
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: var(--grey, #F2F2F2);
+    height: 163px;
+    align-items: flex-start;
+    margin: auto 0;
+    
+}
+
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 446px;
+    padding: 20px;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
