@@ -521,11 +521,20 @@ ul{
         width: 100%;
     }
 
+
+
     .populaires {
         width: 100%;
         margin-top: 50px;
     }
 
+    .card{
+        width: 28%;
+    }
+
+    .hebergement-cards img{
+        width: 100%;
+    }
     .populaires-cards {
         display: flex;
         flex-direction: row;
@@ -546,17 +555,17 @@ ul{
 
     .activites-cards img{
         height: 200px;
-        width: 193px;
+        width: 100%;
     }    
     .activites-cards .card-activites {
         height: 270px;
-        width: 193px;
+        width: 25%;
     }    
         
-        .logo-nav{
+    .logo-nav{
         display: flex;
         flex-direction: row;
-        gap: 518px;
+        gap: 50%;
         padding-right: 0px;
     }
     
