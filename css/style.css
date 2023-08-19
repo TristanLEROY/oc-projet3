@@ -321,7 +321,6 @@ input{
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding-left: 30px;
-    
     box-sizing: border-box;
 }
 
@@ -497,7 +496,7 @@ input{
     background: var(--grey, #F2F2F2);
     height: auto;
     align-items: flex-start;
-    margin: auto ;
+    margin: auto;
 }
 
 .footer-link{
@@ -562,6 +561,7 @@ ul{
     .hebergements {
         width: 100%;
     }
+
     .hebergement-cards img{
         width: 100%;
     }
@@ -668,7 +668,6 @@ ul{
         padding: 0;
         position: absolute;
         right: 3%;
-        height: 9px;
         background-color: var(--main-color);
         border-radius: 25%;
         height: 39px;
@@ -683,7 +682,7 @@ ul{
     .fa-magnifying-glass{
         display: inline-flex;
         background-color: var(--main-color);
-        border-radius: 15px;
+        border-radius: 25%;
         height: 18px;
         padding: 15px 16px;
         color: white;
@@ -794,7 +793,6 @@ ul{
         flex-direction: column;
         align-items: flex-start;
         gap: 50px;
-        align-self: stretch;
         height: auto;
         margin-top: 30px;
     }
